@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, ChangeEvent, Suspense} from 'react'
+import { useEffect, useState, Suspense} from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 import Loading from './Loading'
@@ -75,7 +75,7 @@ const ComputerCanvas = () => {
       </Suspense>
 
 
-      {/* <Preload all /> */}
+      <Preload all />
     </Canvas>
   );
 

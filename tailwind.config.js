@@ -6,7 +6,8 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    '../public/**/*.{png,jpg,svg',
+    '../public/**/*.{png,jpg,svg}',
+    './HOC/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
