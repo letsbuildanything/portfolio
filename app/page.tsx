@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "@/components";
+import { About, Contact,  Hero, Navbar, Tech, Works } from "@/components";
 import Image from "next/image";
 
 const App = () => {
@@ -13,14 +13,11 @@ const App = () => {
         <Hero />        
       </div>
       
-      <About />
-      <Experience />
+      <div><About /></div>
       <Tech />
       <Works />
-      <Feedbacks />
       <div className='relative z-0'>
         <Contact />
-        <StarsCanvas />
       </div>
     </div>
   );

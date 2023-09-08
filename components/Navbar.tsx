@@ -41,7 +41,7 @@ const Navbar = () => {
           }}
         >
           
-          <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          {/* image placeholder */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Pankaj &nbsp;
             <span className='sm:block hidden'> | Portfolio</span>

@@ -1,8 +1,7 @@
 'use client'
 
-import React from 'react'
 import { motion } from "framer-motion";
-import { ComputersCanvas } from './canvas';
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -16,17 +15,17 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className='heroHeadText'>
+          <h1 className='heroHeadText text-white'>
             Hi, I'm <span className='text-[#915EFF]'>Pankaj</span>
           </h1>
           <p className={`heroSubText mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
+            I develop and manage user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
         </div>
       </div>
 
-        <ComputersCanvas />
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -47,6 +46,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;
