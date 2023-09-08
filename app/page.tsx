@@ -1,5 +1,6 @@
 import { About, Contact,  Hero, Navbar, Tech, Works } from "@/components";
 import Image from "next/image";
+import {herobg} from '@/public/assets'
 
 const App = () => {
 
@@ -8,7 +9,7 @@ const App = () => {
     <div className="relative z-0 bg-primary" >
 
       <div className='relative'>
-        <Image src='/../public/assets/herobg.png' fill={true} style = {{ objectFit:'cover' }} alt='hero-backround-image' />
+        <Image src={herobg} fill={true} style = {{ objectFit:'cover' }} alt='hero-backround-image' />
         <Navbar />
         <Hero />        
       </div>

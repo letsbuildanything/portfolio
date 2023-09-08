@@ -23,6 +23,8 @@ import extension from "./extension.png";
 import portfolio from "./portfolio.png";
 import ecommerce from "./ecommerce.png";
 
+import herobg from './herobg.png'
+
 export {
   logo,
   backend,
@@ -45,5 +47,6 @@ export {
   threejs,
   extension,
   portfolio,
-  ecommerce
+  ecommerce,
+  herobg
 };
